@@ -93,7 +93,6 @@ export const addToCart = (product)=>async (dispatch)=>{
         payload: cart
     }) 
 }
-
 export const deleteFromCart = (id) => async (dispatch) => {
     cart = cart.filter(item => item.id !== id)
     dispatch({

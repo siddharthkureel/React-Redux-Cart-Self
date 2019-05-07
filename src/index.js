@@ -10,10 +10,10 @@ import history from "./history";
 import RootReducer from "./component/reducers/RootReducer";
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const App=(props)=>{
+const App=()=>{
     return (
     <Router history={history} >
-       <Routes {...props}/>
+       <Routes/>
     </Router>
     )
 }

@@ -8,7 +8,7 @@ import EditProduct from "./component/Admin/EditProduct";
 import ProductList from "./component/Admin/ProductList";
 import SignIn from "./component/Admin/SignIn/index";
 import PrivateRoute from "./component/authRoutes/PrivateRoute";
-const Routes = (props) => {
+const Routes = () => {
   return (
     <Layout >
         <Switch>
